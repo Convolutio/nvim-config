@@ -1,9 +1,5 @@
-# 👨‍💻 nvim-config
-Here is a repository to host my Neovim setups.
-For each setup, a branch is developed according to the usage context (e.g. whether some IDE layer such as [LunarVim](https://www.lunarvim.org/) is attached). Please read the configuration specifications in the branch that you are interested in.
+# Vanilla Neovim with Lazy.
+Copy the files in this branch in `~/.config/nvim/`.  
+This config is very limited but use anyway some basic packages thanks to
+[lazy.nvim](https://github.com/folke/lazy.nvim) (best package manager to date).
 
-## 🌿Branches:
-
-- [lunarvim](https://github.com/Convolutio/nvim-config/tree/lunarvim) 🌟
-- [lazy_vanilla](https://github.com/Convolutio/nvim-config/tree/lazy_vanilla)
-- [nvchad](https://github.com/Convolutio/nvim-config/tree/nvchad)
