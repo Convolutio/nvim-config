@@ -25,6 +25,13 @@ alias nvim=lvim
 export EDITOR=lvim
 ```
 
+## Ressources to setup new plugins
+- First read the LunarVim dedicated
+[documentation](https://www.lunarvim.org/docs/configuration/plugins/example-configurations)
+- also read the docs of plugins (RTFM)
+- for a more exhaustive list, see [Awesome Neovim
+repository](https://github.com/rockerBOO/awesome-neovim)
+
 ## TODO:
 
 - [ ] use external system language servers
