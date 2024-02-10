@@ -39,14 +39,14 @@ repository](https://github.com/rockerBOO/awesome-neovim)
     - [ ] Mason: remove installed language servers
     - [ ] install language servers externally
     - [ ] LspConfig: link the plugin to the installed language servers
-- [ ] add discord presence
-- [ ] add a Markdown/Latex previewer (see [Awesome
+- [x] add discord presence
+- [x] add a Markdown/Latex previewer (see [Awesome
   Nvim](https://github.com/rockerBOO/awesome-neovim#markdown-and-latex))
-- [ ] add a git diff viewer (see [Awesome Nvim *Git*
+- [x] add a git diff viewer (see [Awesome Nvim *Git*
   section](https://github.com/rockerBOO/awesome-neovim#git))
 - [ ] add a plugin for enhancing the clipboard management (see [Register
   section](https://github.com/rockerBOO/awesome-neovim#register))
-- [ ] set a beautiful colorscheme (such as [catpuccin](https://github.com/catppuccin/nvim))
+- [x] set a beautiful colorscheme (such as [catpuccin](https://github.com/catppuccin/nvim))
 - [ ] there is interesting [deployment
   plugins](https://github.com/rockerBOO/awesome-neovim#deployment) for handling synchronisation of
   folders with a remote device (use rsync, ssh)
