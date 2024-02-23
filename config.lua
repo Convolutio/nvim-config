@@ -7,7 +7,7 @@ vim.opt.number = true
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.opt.guifont = "FiraCode Nerd Font:h11"
-local TEXTWIDTH = 100
+local TEXTWIDTH = 79
 vim.opt.colorcolumn = tostring(TEXTWIDTH + 1)
 vim.opt.textwidth = TEXTWIDTH
 
@@ -46,7 +46,9 @@ lvim.plugins = {
     {
         "andweeb/presence.nvim",
         config = function()
-            require("presence").setup({})
+            require("presence").setup({
+                blacklist = { ".*serv_bda.*" },
+            })
         end
     }
 }
