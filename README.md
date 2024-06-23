@@ -4,6 +4,7 @@ For each setup, a branch is developed according to the usage context (e.g. wheth
 
 ## 🌿Branches:
 
-- [lunarvim](https://github.com/Convolutio/nvim-config/tree/lunarvim) 🌟
+- [lazyvim](https://github.com/Convolutio/nvim-config/tree/lazyvim) 🌟
+- [lunarvim](https://github.com/Convolutio/nvim-config/tree/lunarvim)
 - [lazy_vanilla](https://github.com/Convolutio/nvim-config/tree/lazy_vanilla)
 - [nvchad](https://github.com/Convolutio/nvim-config/tree/nvchad)
