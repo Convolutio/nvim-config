@@ -3,7 +3,14 @@
 -- Add any additional options here
 
 local opt = vim.opt
+
 opt.textwidth = 79
 opt.colorcolumn = "+1"
+
 opt.wrap = true
+
+-- `+y` for system yank, `y` for in session yank
+opt.clipboard = ""
+
+-- remove format on file save
 vim.g.autoformat = false
