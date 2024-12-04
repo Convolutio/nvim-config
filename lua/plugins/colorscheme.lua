@@ -16,20 +16,18 @@ return {
       colorscheme = "catppuccin",
     },
   },
-  -- Autoswitch between light and dark background mode
+  -- Autoswitch with system's chosen appearance
   {
-    "JManch/sunset.nvim",
-    dependencies = {
-      {
-        "catppuccin",
-      },
-    },
-    lazy = false,
-    priority = 1000,
+    "f-person/auto-dark-mode.nvim",
     opts = {
-      -- Bordeaux's coordinates
-      latitude = 44.834999,
-      longitude = -0.575490,
+      update_interval = 3000,
+      fallback = "light",
+      set_dark_mode = function()
+        vim.api.nvim_set_option_value("background", "dark", {})
+      end,
+      set_light_mode = function()
+        vim.api.nvim_set_option_value("background", "light", {})
+      end,
     },
   },
 }

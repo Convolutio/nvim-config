@@ -11,4 +11,21 @@ return {
       vim.keymap.set("i", "<C-i>", "<cmd>IconPickerInsert<cr>", opts)
     end,
   },
+  {
+    "bryangrimes/plantuml.nvim",
+    version = "*",
+    config = function()
+      require("plantuml").setup({
+          renderer = {
+          type = "image",
+          options = {
+          prog = "feh",
+          dark_mode = false,
+          format = nil, -- Allowed values: nil, 'png', 'svg'.
+          },
+          },
+          render_on_write = true,
+      })
+    end,
+  },
 }
