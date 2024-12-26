@@ -42,7 +42,7 @@ return {
             clangdFileStatus = true,
           },
         }
-      clangd_opts.cmd[1] = "/home/thormas/.guix-profile/bin/clangd"
+      clangd_opts.cmd[1] = os.getenv("HOME") .. "/.guix-profile/bin/clangd"
       clangd_opts.mason = false
       opts.servers.clangd = clangd_opts
     end,
