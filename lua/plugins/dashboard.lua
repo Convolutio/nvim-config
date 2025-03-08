@@ -19,7 +19,7 @@ return {
         { section = "header", pane = 2 },
         {
           section = "terminal",
-          cmd = "chafa ~/Pictures/logo_sticker.png --format symbols --symbols vhalf --size 60x60; sleep .1",
+          cmd = "chafa ~/Pictures/logo_sticker.png --format symbols --symbols -dot --size 60x60; sleep .1",
           padding = 1,
           height = 30,
         },
