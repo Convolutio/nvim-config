@@ -39,4 +39,9 @@ return {
       })
     end,
   },
+
+  -- git diff view
+  {
+    "sindrets/diffview.nvim",
+  },
 }
