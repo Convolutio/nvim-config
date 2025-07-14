@@ -4,6 +4,9 @@ return {
     opts = {
       inlay_hints = { enabled = false },
       servers = {
+        ruff = {
+          mason = false,
+        },
         clangd = {
           mason = false,
         },
