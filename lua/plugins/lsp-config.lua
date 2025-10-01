@@ -1,5 +1,15 @@
 return {
   {
+    "stevearc/conform.nvim",
+    opts = {
+      formatters_by_ft = {
+        astro = { "prettier" },
+        typescript = { "prettier" },
+        javascript = { "prettier" },
+      },
+    },
+  },
+  {
     "neovim/nvim-lspconfig",
     opts = {
       inlay_hints = { enabled = false },
