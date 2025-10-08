@@ -1,7 +1,7 @@
 return {
   -- specify the flavour for dark and light mode
   {
-    "catppuccin",
+    "catppuccin/nvim",
     opts = {
       flavour = "auto",
       background = {
@@ -9,6 +9,14 @@ return {
         light = "latte",
       },
     },
+  },
+  {
+    "akinsho/bufferline.nvim",
+    opts = function(_, opts)
+      if (vim.g.colors_name or ""):find("catppuccin") then
+        opts.highlights = require("catppuccin.special.bufferline").get_theme()
+      end
+    end,
   },
   {
     "LazyVim/LazyVim",
