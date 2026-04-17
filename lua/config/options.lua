@@ -14,3 +14,7 @@ opt.clipboard = ""
 
 -- remove format on file save
 vim.g.autoformat = false
+
+-- French and English
+opt.spell = true
+opt.spelllang = { "en_us", "fr" }
